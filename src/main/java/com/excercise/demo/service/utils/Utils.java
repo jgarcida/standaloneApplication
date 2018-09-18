@@ -23,10 +23,10 @@ public class Utils {
 	
 	public JSONObject newUser() {
 		JSONObject jsonObject = new JSONObject();
-		jsonObject.put("amount", "45.00");
+		jsonObject.put("amount", "2102.00");
 		jsonObject.put("description", "this is another test about nothing");
 		jsonObject.put("date", this.formatoFecha(new Date()));
-		jsonObject.put("userId", "2");
+		jsonObject.put("userId", "3");
 		jsonObject.put("transaction_id",this.ramdomId());
 		return jsonObject;
 	}

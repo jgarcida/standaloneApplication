@@ -20,6 +20,13 @@
 			"amount": "45.00",
 			"description": "this is another test about nothing",
 			"userId": "2"
+		},
+		{
+			"date": "2018-09-17",
+			"transaction_id": "e2cd50df-557e-4909-afaa-d4a3b7515f8b",
+			"amount": "2102.00",
+			"description": "this is another test about nothing",
+			"userId": "3"
 		}
 	]
 }

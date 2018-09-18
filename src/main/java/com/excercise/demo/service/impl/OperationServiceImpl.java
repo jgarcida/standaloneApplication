@@ -3,7 +3,6 @@ package com.excercise.demo.service.impl;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Date;
 import java.util.Iterator;
 
 import org.json.simple.JSONArray;
@@ -14,43 +13,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.excercise.demo.service.OperationService;
-import com.excercise.demo.service.utils.Utils;
 
 @Service
 public class OperationServiceImpl implements OperationService {
 
 	private static Logger LOGGER = LoggerFactory.getLogger(OperationServiceImpl.class);
 	private static String FILE_PATH = "fileStore/user.json";
-
-	@Override
-	public void writeJson() {
-		// TODO Auto-generated method stub
-		Utils utils = new Utils();
-		JSONObject jsonObject = new JSONObject();
-		jsonObject.put("amount", "50.50");
-		jsonObject.put("description", "This is a test");
-
-		jsonObject.put("date", utils.formatoFecha(new Date()));
-		jsonObject.put("userId", "1");
-		jsonObject.put("transaction_id", utils.ramdomId());
-
-		JSONArray jsonArray = new JSONArray();
-		jsonArray.add(jsonObject);
-
-		JSONObject saveJson = new JSONObject();
-		saveJson.put("userTransaction", jsonArray);
-
-		try {
-			FileWriter fileWriter = new FileWriter(FILE_PATH);
-			fileWriter.write(saveJson.toJSONString());
-			fileWriter.flush();
-
-		} catch (Exception e) {
-			LOGGER.error(e.getMessage());
-		}
-		LOGGER.info("JSON FORMAT " + saveJson);
-
-	}
 
 	@Override
 	public JSONObject addTransaction(JSONObject newObject) {
