@@ -10,3 +10,25 @@ After download de project is necesary to follow the next steps:
     6.- Click Browse and select the folder that is the root of the Maven project.
     7.- Click Next
     8.- Click Finish
+    
+    Explanation about data base.
+        For this example i going to use a relational database.
+    
+    I describing the tables and columns 
+        I will describe the tables and columns, for this example is necesary 2 table then 
+        one table for users and other for transaction where this tables join
+        through id_user.
+        
+        *****TABLES*****
+            USER
+                COLUMNS
+                user_id(pk)
+                name
+                last_name
+                
+            TRANSACTIONS
+                COLUMNS
+                id_transaction(pk)
+                amount
+                description
+                user_id(fk)
