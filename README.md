@@ -1,7 +1,7 @@
 # standaloneApplication
 In this example i write code with java and i used json-simple api. This example it's about save user information then get information through id an then i show all user in a list.
 
-After download de project is necesary to follow the next steps:
+After download de project is necesary to follow the next steps:										
     1.- Open eclipse
     2.- Click File > Import
     3.- Type Maven in the search box under Select an import source:
