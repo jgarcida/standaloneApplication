@@ -7,6 +7,6 @@ After download de project is necesary to follow the next steps:
     3.- Type Maven in the search box under Select an import source:
     4.- Select Existing Maven Projects
     5.- Click Next
-    6.- Click Browse and select the folder that is the root of the Maven project (probably contains the pom.xml file)
+    6.- Click Browse and select the folder that is the root of the Maven project.
     7.- Click Next
     8.- Click Finish
