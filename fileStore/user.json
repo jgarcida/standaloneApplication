@@ -1,0 +1,25 @@
+{
+	"userTransaction": [
+		{
+			"date": "2018-09-17",
+			"transaction_id": "f4d42c9b-156b-44fb-aeee-25dd7c530381",
+			"amount": "45.00",
+			"description": "this is another test about nothing",
+			"userId": "2"
+		},
+		{
+			"date": "2018-09-17",
+			"transaction_id": "525a1b7b-c16b-4881-ad26-d938ebf39be9",
+			"amount": "45.00",
+			"description": "this is another test about nothing",
+			"userId": "2"
+		},
+		{
+			"date": "2018-09-17",
+			"transaction_id": "dbb7a5bc-9d0f-4525-817b-35a56d80d451",
+			"amount": "45.00",
+			"description": "this is another test about nothing",
+			"userId": "2"
+		}
+	]
+}
